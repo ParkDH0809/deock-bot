@@ -1,8 +1,8 @@
 import type { CommandInteraction } from "discord.js";
-import { Discord, MetadataStorage, Slash } from "discordx";
+import { Discord, Slash } from "discordx";
 
 @Discord()
-export class SlashExample {
+export class PingPong {
   @Slash({
     description: "Ping-Pong",
     name: "ping",
